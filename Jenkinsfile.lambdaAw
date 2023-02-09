@@ -4,5 +4,4 @@ pipeline {
         stage('Init') {
 
         }
-
 }
