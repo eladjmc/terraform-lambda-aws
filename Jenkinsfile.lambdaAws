@@ -2,6 +2,17 @@ pipeline {
 
     agent any
     stages {
+        stage('Update and install terraform') {
+          steps {
+            echo 'Update in progress'
+            sh '''
+              apt update -y
+              curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add -
+              apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com/ $(lsb_release -cs) main"
+              apt-get install terraform -y
+            '''
+          }
+        }
         stage('Init') {
           steps {
             dir('setup'){
