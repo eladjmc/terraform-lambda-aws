@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
         stage('Init') {
-
+        sh 'hello World'
         }
     }
 }
