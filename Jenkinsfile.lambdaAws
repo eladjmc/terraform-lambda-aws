@@ -6,6 +6,7 @@ pipeline {
       steps {
         echo 'Terraform init in progress'
         sh '''
+        pwd
           setup/terraform init
         '''
         }
