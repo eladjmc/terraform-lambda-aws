@@ -1,5 +1,5 @@
 pipeline {
-  
+
     agent any
     stages {
         stage('Init') {
@@ -20,7 +20,7 @@ pipeline {
         }
       }
 
-      stage('Plan') {
+      stage('Apply and deploy') {
       steps {
         echo 'Terraform Plan in progress'
         sh '''
