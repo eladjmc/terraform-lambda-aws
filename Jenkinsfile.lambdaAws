@@ -6,7 +6,7 @@ pipeline {
           steps {
             echo 'Update in progress'
             sh '''
-              apt update -y
+              apt update --privileged -y
               curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add -
               apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com/ $(lsb_release -cs) main"
               apt-get install terraform -y
