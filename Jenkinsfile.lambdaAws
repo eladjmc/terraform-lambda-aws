@@ -4,11 +4,12 @@ pipeline {
     stages {
         stage('Init') {
       steps {
-        echo 'Terraform init in progress'
-        sh '''
-        pwd
-          setup/terraform init
-        '''
+        dir('setup'){
+          echo 'Terraform init in progress'
+          sh '''
+            terraform init
+          '''
+        }
         }
       }
 
