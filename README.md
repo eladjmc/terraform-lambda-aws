@@ -1,5 +1,5 @@
 # Terraform Deploy S3+Lambda on AWS with Jenkins 
-<img src="./assets/images/title.jpg" width="700" height="400" />
+<img src="./assets/images/title.jpg" width="900" height="400" />
 
 
 In this project I used Terraform to deploy lambda+s3 bucket in AWS while using jenkins for the CI/CD
