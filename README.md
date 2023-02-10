@@ -5,7 +5,7 @@
 
 
 
-### In this project I used Terraform to deploy lambda+s3 bucket in AWS while using Jenkins for the CI/CD  
+### In this project I used Terraform to deploy API gateway+lambda+S3 bucket in AWS while using a Jenkins process based on Jenkins declarative pipeline  
 <hr>
 
 ## Prerequisites
