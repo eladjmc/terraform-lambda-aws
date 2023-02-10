@@ -20,7 +20,7 @@
 3. Create a new Jenkins Pipeline linked to your GitHub repository
 
 ## Terraform configuration:
-1. Make sure to make a 'tfvars' file inside the setup directory in you project at you Jenkins server
+1. Make sure to make a 'tfvars' file inside the setup directory in you project at your Jenkins server
 
 
     - tfvars file example:
