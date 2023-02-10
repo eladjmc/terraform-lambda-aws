@@ -47,19 +47,18 @@
 2. Running the the pipeline, in this project we did not set a triggered pipelined (pipeline that will run at every commit to a specific branch) so you will manually run the pipeline.  
 Jenkins will take you repo, clone it and then execute the stages we defined in the Jenkins file - Init, Plan, Apply
 ### It should look like this:
-<img src="./assets/images/Screenshot2.png" width="760" height="500" />
+<img src="./assets/images/Screenshot2.png" width="760" height="400" />
 
 <br>
 3. If it fails you can view the logs and output to figure out what went wrong, and if it passed successfully you can find the link to lambda in the output.
 
 ### it should look like this:
-<img src="./assets/images/Screenshot3.png" width="760" height="500" />
+<img src="./assets/images/Screenshot3.png" width="760" height="400" />
 <br>    
 
 ### Feel free to edit the app main.py file to make your own lambda website, after going to the getaway link my app will look like this:
 
-### it should look like this:
-<img src="./assets/images/Screenshot1.png" width="760" height="500" />
+<img src="./assets/images/Screenshot1.png" width="760" height="400" />
 <br>    
 
 # Summary
