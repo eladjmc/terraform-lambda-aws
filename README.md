@@ -6,7 +6,7 @@ In this project I used Terraform to deploy lambda+s3 bucket in AWS while using j
 
 ## Prerequisites
 * Account in AWS
-* Jenkins with terraform version 1.3.7+ installed on it and access to github account with the project files and 
+* Jenkins with terraform version 1.3.7+ installed on it and access to github account with the project files
 * Terraform 'tfvars' file that contains all the variables needed for the setup(access key and secret key)
 * Big cup of coffee 😉☕
 
